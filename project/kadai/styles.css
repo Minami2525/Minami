@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
+
+html {
+    font-size: 28px;
+  }
+  
+  body,html {
+    width: 960px;
+    margin: 1rem auto;
+    font-family: serif;
+    font-family: 'Sacramento', cursive;
+  }
+  
+  .task_value {
+    height: 1.5rem;
+    font-size: 28px;
+  }
+  
+  .task_submit {
+    height: 2rem;
+    font-size: 28px;
+    font-family: 'Sacramento', cursive;
+  }
+  
+  #table {
+    background-color: yellowgreen;
+    width: 80%;
+    height: 120%;
+    border-radius: 1rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    padding-bottom: 1rem;
+  }
+  
+  h2 {
+    font-size: 28px;
+    padding: 1rem;
+    font-family: 'Sacramento', cursive;
+  }
+  
+  li {
+    margin: 1rem 1rem 1rem 0;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .task_list {
+    font-size: 28px;
+  }
+
+  button{
+    font-size: large;
+    width: 10em;
+    height: 100%;
+  }
+  
+  .hidden {
+    display: none;
+  }
+  
+  #mask {
+    background: rgba(0, 0, 0, 0.7);
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    z-index: 1;
+  }
+  
+  #modal {
+    background: #fff;
+    width: 50%;
+    padding: 24px;
+    border-radius: 4px;
+    color: red;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    margin: 0 auto;
+    z-index: 2;
+  }
